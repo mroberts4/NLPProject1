@@ -1,0 +1,20 @@
+{
+    "appName": "COSC 6590 Project 1",
+    "testParams": [
+        {"enabled": true, "model":"LogisticRegression", "vector":"CountVectorizer", "deleteWhenDone": true},
+        {"enabled": true, "model":"LogisticRegression", "vector":"TfidfVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"LogisticRegression", "vector":"HashingVectorizer", "deleteWhenDone": true},
+        
+        {"enabled": false, "model":"RandomForestClassifier", "vector":"CountVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"RandomForestClassifier", "vector":"TfidfVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"RandomForestClassifier", "vector":"HashingVectorizer", "deleteWhenDone": true},
+        
+        {"enabled": false, "model":"SVC", "vector":"CountVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"SVC", "vector":"TfidfVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"SVC", "vector":"HashingVectorizer", "deleteWhenDone": true},
+        
+        {"enabled": false, "model":"MultinomialNB", "vector":"CountVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"MultinomialNB", "vector":"TfidfVectorizer", "deleteWhenDone": true},
+        {"enabled": false, "model":"MultinomialNB", "vector":"HashingVectorizer", "deleteWhenDone": true}
+    ]
+}
